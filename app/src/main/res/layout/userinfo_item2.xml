@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/left_text"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:text="专业"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:gravity="right"
+        android:id="@+id/right_text"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:hint="请补全内容"
+        android:maxLines="1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

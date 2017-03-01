@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="kartina.activity.SearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttonBlue_1"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:layout_marginLeft="5dp"
+            android:id="@+id/search_type"
+            android:gravity="right"
+            style="@style/Widget.AppCompat.DropDownItem.Spinner"
+            android:entries="@array/searchSpinner"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"></Spinner>
+        <EditText
+            android:id="@+id/search_edit"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:lines="1"
+            android:background="@drawable/gray_edge_edit_shape"
+            android:ems="10"
+            android:hint="搜索内容" />
+
+        <TextView
+            android:id="@+id/search_to"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="搜索" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/search_result_layout"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="搜索结果" />
+            <kartina.card.CardListView
+                android:id="@+id/result_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </kartina.card.CardListView>
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/default_search_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/search_defaul_list"
+                    android:overScrollHeader="@color/cardview_dark_background"
+                    android:focusable="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </ListView>
+            </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

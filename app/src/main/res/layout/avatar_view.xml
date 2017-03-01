@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <kartina.view.CircleImageView
+        android:layout_margin="5dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/boy3"
+        android:id="@+id/avatar" />
+
+    <TextView
+        android:id="@+id/from_who"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_click_selector"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/buttonBlue_1"
+        android:text="张三"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:paddingRight="10dp"
+        android:text="时间： 2014-12-21"/>
+</LinearLayout>

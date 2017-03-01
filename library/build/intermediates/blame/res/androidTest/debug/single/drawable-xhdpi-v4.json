@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "I:\\Android\\SelfDesignConponent\\Kartina\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "I:\\Android\\SelfDesignConponent\\Kartina\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "I:\\Android\\SelfDesignConponent\\Kartina\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "I:\\Android\\SelfDesignConponent\\Kartina\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "I:\\Android\\SelfDesignConponent\\Kartina\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "I:\\Android\\SelfDesignConponent\\Kartina\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_flip.png"
+    }
+]

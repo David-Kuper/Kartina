@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/background_tabs_diagonal"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:id="@+id/nav1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/school_nav"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/bank_normal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="校园"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/discover_nav"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/discover_normal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="发现"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/person_nav"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/person_normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="我的"/>
+    </LinearLayout>
+</LinearLayout>

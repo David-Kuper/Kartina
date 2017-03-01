@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/buttonBlue_1"
+    android:gravity="center"
+    android:layout_height="50dp">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:srcCompat="@mipmap/scan_white"
+        android:id="@+id/action_bar_style2_left"
+         />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gray_edge_edit_shape"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:hint="请输入搜索关键字"
+        android:ems="10"
+        android:id="@+id/action_bar_style2_center"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:gravity="center"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/message_white"
+        android:id="@+id/action_bar_style2_right"
+      />
+</LinearLayout>

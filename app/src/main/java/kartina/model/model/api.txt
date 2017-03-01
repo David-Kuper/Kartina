@@ -1,0 +1,79 @@
+
+
+success
+   error
+
+
+data 
+  1.首页
+     homeModel 	
+              bannerbeanList   list<BannerBean>    
+              cardList         Lit<CardBean> 
+
+              
+
+  2.发现
+
+     1.课程  courseModel   
+                    tagList      list<tag>
+                    cardList     List<CardBean>
+            
+            课程分类筛选  courseClassifyModel
+                             cardList     List<CardBean>
+
+            课程详情  courseDetailModel
+                        classDetailHeadBean         ClassDetailHeadBean
+                        cardList   					List<CardBean>
+
+            帖子详情  postDetailModel
+            			postDetailHeadBean
+                        cardList   					List<CardBean>
+
+             老师详情   teacherDetailModel
+
+                      teacherDetailHeadBean
+                            cardList            List<CardBean>
+
+   
+   1.话题  topicModel   
+                     tagList      list<tag>
+                    cardList     List<CardBean>
+
+            话题详情  topicDetailModel
+                        talkHeadBean         TalkHeadBean
+                        cardList   					List<CardBean>
+
+            帖子详情  postDetailModel
+            			postDetailHeadBean
+                        cardList   					List<CardBean>
+
+
+3.   搜索
+
+        标签  hotTagModel
+        			taglist      list<tag>
+
+        搜索结果
+            findModel
+  				 cardList     List<CardBean>
+
+
+4.个人中心  
+         userInfoModel
+                userInfo      UserInfo{User  user ，Student  student Teacher teacher }
+        
+        我发布的     cardList     List<CardBean>
+        我评论的     cardList     List<CardBean>
+        我关注的		cardList     List<CardBean>
+        我赞过的		cardList     List<CardBean>
+              
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="blue_1">#4b6af9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="buttonBlue_1">#00cccc</color>
+    <color name="translate">#00000000</color>
+    <color name="black">#ff000000</color>
+    <color name="divider_line">#5aaa</color>
+    <color name="clicked">#eaaa</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="hot_tag">#ded9d8</color>
+    <color name="class_head_txt_color">#66000000</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="pink">#ff99b2</color>
+    <color name="green">#00ff00</color>
+    <color name="blue">#0082ff</color>
+    <color name="grey">#898989</color>
+    <color name="E787878">#787878</color>
+    <color name="E505050">#505050</color>
+    <color name="freshblogsbg">#C1DDFE</color>
+    <color name="hotsblogsbg">#CCD59F</color>
+    <color name="transparentwhite">#40ffffff</color>
+    <color name="C8C8C8">#c8c8c8</color>
+    <color name="CF5F5F5">#F5F5F5</color>
+    <color name="FF545A">#FF545A</color>
+
+    <color name="light_gray_text">#949494</color>
+    <color name="common_list_divider">#dfdfdf</color>
+    <color name="view_unpressed">#00000000</color>
+    <color name="view_pressed">#22000000</color>
+    <color name="menu_bottom_bg">#f9f9f9</color>
+    <color name="red">#fa3e36</color>
+    <color name="new_tex_content">#676564</color>
+</resources>

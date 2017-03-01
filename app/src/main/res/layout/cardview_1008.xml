@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:src="@color/red"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/group_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="精彩课程"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/group_num"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:text="( 5 )"
+        android:textColor="@color/buttonBlue_1" />
+
+    <TextView
+        android:gravity="right"
+        android:id="@+id/txt_more"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:text="更多" />
+</LinearLayout>

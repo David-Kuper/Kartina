@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_flash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="kartina.activity.FlashActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="欢迎来到"
+        android:gravity="center"
+        android:textColor="@color/buttonBlue_1"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:text="Kartina"
+        android:textColor="@color/buttonBlue_1"
+        android:textSize="45sp" />
+
+</RelativeLayout>
